@@ -5,9 +5,12 @@ import './Cart.css'
 const Cart = props => {
     const { cart } = props;
     const total = cart.reduce((previous, expert) => previous + expert.salary, 0);
+
     const addedExpert = cart.map(expert => {
         return (
-            <CartElement expert={expert}></CartElement>
+            <CartElement
+                key={expert.id}
+                expert={expert}></CartElement>
         )
     })
     return (

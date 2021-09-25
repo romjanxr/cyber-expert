@@ -2,7 +2,7 @@ import React from 'react';
 import './Expert.css'
 
 const Expert = (props) => {
-    const { name, age, designation, address, salary, img, } = props.expert;
+    const { name, age, designation, address, salary, img } = props.expert;
     return (
         <div className="col">
             <div className="card h-100 card-bg">

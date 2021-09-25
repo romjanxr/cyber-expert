@@ -14,8 +14,9 @@ const Team = () => {
     }, [])
 
     const handleAddToList = expert => {
-        const newCount = [...cart, expert];
-        setCart(newCount);
+        const count = [...cart];
+        !count.includes(expert) && count.push(expert);
+        setCart(count);
     }
 
     return (
