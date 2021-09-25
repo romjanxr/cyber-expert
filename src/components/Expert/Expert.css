@@ -1,0 +1,12 @@
+.img-width {
+    width: 55%;
+}
+
+.card-bg {
+    background-color: #f0eeee;
+    box-shadow: 4px 4px 7px lightgray;
+}
+
+.mb-4 button{
+    font-size: 18px;
+}

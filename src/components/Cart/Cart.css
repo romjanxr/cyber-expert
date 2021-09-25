@@ -1,0 +1,8 @@
+.cart-bg {
+    background-color: #f0eeee;
+    box-shadow: 4px 4px 7px lightgray;
+    padding: 20px 10px;
+    min-height: 400px;
+    position: sticky;
+    top: 20px;
+}
