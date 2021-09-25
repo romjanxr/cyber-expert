@@ -16,7 +16,7 @@ const Cart = props => {
     return (
         <div className="cart-bg card">
             <h4>Expert Added: {cart.length}</h4>
-            <h4>Total Cost: {total}</h4>
+            <h4>Total Cost: ${total}</h4>
             <div>{addedExpert}</div>
             {
                 !cart.length || <button className="btn btn-primary">Confirm List</button>

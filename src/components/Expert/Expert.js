@@ -17,7 +17,7 @@ const Expert = (props) => {
                 <div className="mb-4">
                     <button
                         className="btn btn-primary"
-                        onClick={() => props.handleAddToList(props.expert)}>Add to List</button>
+                        onClick={() => props.handleAddToList(props.expert)}><i class="fas fa-cart-plus"></i> Add to List</button>
                 </div>
             </div>
         </div>
